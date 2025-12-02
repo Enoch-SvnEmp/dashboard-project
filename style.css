@@ -1,0 +1,162 @@
+html {
+    font-size: 62.5%;
+}
+body{
+    margin: 0rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+.main-dashbaord {
+    width: 100%;
+    display: flex;
+}
+/* ------------------------------------------------ */
+/* css for side bar */
+.side-bar {
+    background-color: rgb(28, 161, 35);
+    width: 18rem;
+    color: rgb(249, 250, 250);
+    gap: 3rem;
+    padding-right: 0px;
+    
+}
+
+.nav-item {
+    display: flex;
+    
+    margin-left: 1.5rem;
+    text-align: center;
+    align-items: center;
+}
+.power {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.nav-item img {
+    padding: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.dash {
+    background-color: rgba(198, 187, 177, 0.7);
+    width: 14rem;
+    border-radius: 1rem;
+}
+
+.nav-text {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fade {
+    color: rgb(177, 199, 219);
+    font-size: 1rem;
+    margin-left: 4rem;
+    
+}
+
+.connN {
+    background-color: rgb(231, 235, 240);
+    color: #0d440a;
+    width: 12rem;
+    display: flex;
+    font-size: 1.1rem;
+    border-radius: 1.3rem;
+    margin-bottom: 2rem;
+}
+/* end of css for side bar */
+/* ------------------------------- */
+
+/* :start of css for main content of dashboard */
+.main-content {
+    margin-left: 2rem;
+    width: 100%;
+}
+
+/* css for 1st section */
+.ballance {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0px;
+}
+
+.ballance-sub {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.search {
+    width: 30rem;
+    height: 3rem ;
+    margin-top: 6rem;
+}
+
+.st-section {
+    display: flex;
+    gap: 6rem;
+}
+
+.user-col {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rnd-user {
+    width: 3.4rem;
+    border-radius: 3rem;
+}
+
+.fit {
+    width: 2rem;
+}
+
+/* end of css for 1st section */
+/* --------------------------------- */
+/* reedited css for 2nd section */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.card {
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+  height: 15rem;
+}
+
+.card h1 {
+  font-size: 60px;
+  text-align: right;
+}
+
+.card img {
+  position: absolute;
+  top: 10rem;
+}
+.blue {
+  background: #007bff;
+}
+.pink {
+  background: #ff4370;
+}
+.purple {
+  background: #a020f0;
+}
+.white {
+  border: 1px solid #999898;
+}
+/* end of 2nd section */
