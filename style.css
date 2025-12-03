@@ -278,3 +278,52 @@ body{
 }
 
 /* end of 3rd section  */
+/* --------------------------------------- */
+/* start of fourth section  */
+.trends-users {
+  width: 450px;
+  background: transparent;
+  margin-top: 30px;
+  padding: 20px 20px;
+  position: absolute;
+  top: 250px;
+  left: 900px;
+  z-index: 1;
+}
+
+.over-03 {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding: 20px 420px 20px 20px;
+}
+
+.trends img,
+.active-users,
+.user-stats {
+  margin-top: 40px;
+}
+
+.trends p {
+    color: #c9cace;
+    font-size: 14px;
+}
+
+.user-stats,
+.stats-top {
+  display: flex;
+}
+
+.stats-top {
+  align-items: center;
+}
+
+.user-stats {
+  justify-content: space-between;
+}
+
+.green-text {
+  color: #34c759;
+  padding-right: 5px;
+}
