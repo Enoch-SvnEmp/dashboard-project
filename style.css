@@ -69,12 +69,17 @@ body{
     border-radius: 1.3rem;
     margin-bottom: 2rem;
 }
+
+.end {
+    margin-top: auto;
+}
 /* end of css for side bar */
 /* ------------------------------- */
 
 /* :start of css for main content of dashboard */
 .main-content {
     margin-left: 2rem;
+    margin-right: 2rem;
     width: 100%;
 }
 
@@ -125,16 +130,16 @@ body{
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-top: 20px;
+  gap: 3rem;
+  margin-top: 2rem;
   position: relative;
   z-index: 3;
 }
 
 .card {
-  padding: 10px;
-  color: white;
-  border-radius: 15px;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  border-radius: 1.5rem;
   height: 15rem;
 }
 
@@ -160,3 +165,116 @@ body{
   border: 1px solid #999898;
 }
 /* end of 2nd section */
+/* ------------------------------------------- */
+/* start of third section  */
+
+.inbox-section {
+  width: 44rem;
+  background: rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.09);
+  margin-top: 2.5rem;
+}
+
+.order {
+  z-index: 2;
+  position: relative;
+}
+
+.st-inbox,.nd-inbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-blue {
+  color: #087fff;
+  padding: 1.1rem;
+}
+
+.nd-inbox {
+  border-bottom: 1px solid #eceaea;
+}
+
+#inbox-head {
+  padding: 1.1rem;
+}
+
+#inbox-head p {
+    font-size: 1.4rem;
+    color: #cfd1d7;
+}
+
+.nd-inbox p {
+  padding: 0.5rem;
+}
+
+.grey-text {
+    color: #938f8f;
+}
+
+.nd-inbox p:last-child {
+  color: #c9c4c4;
+}
+
+.nd-inbox:last-child {
+  border-bottom: none;
+}
+
+/* start of sub-section of third section */
+
+.sub-rd-section-activity {
+  width: 44rem;
+  background: rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+  z-index: 2;
+  position: relative;
+}
+
+.activity-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-head h3 {
+  padding: 1.5rem;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem;
+}
+
+.activity-item:last-child {
+  border: none;
+}
+
+.dot {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 2rem;
+}
+
+.tag {
+  border-radius: 1rem;
+  color: rgb(246, 246, 246);
+  width: 10rem;
+  height: 4rem;
+  text-align: center;
+}
+
+.urgent {
+  background-color: #fec400;
+}
+.new {
+  background-color: #34c759;
+}
+.default {
+  background-color: #f0f1f7;
+  color: #c6bdbd;
+}
+
+/* end of 3rd section  */
