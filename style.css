@@ -79,7 +79,6 @@ body{
 /* :start of css for main content of dashboard */
 .main-content {
     margin-left: 2rem;
-    margin-right: 2rem;
     width: 100%;
 }
 
@@ -128,9 +127,8 @@ body{
 /* --------------------------------- */
 /* reedited css for 2nd section */
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  display: flex;
+  gap: 2rem;
   margin-top: 2rem;
   position: relative;
   z-index: 3;
@@ -141,6 +139,7 @@ body{
   color: rgb(255, 255, 255);
   border-radius: 1.5rem;
   height: 15rem;
+  width: 30rem;
 }
 
 .card h1 {
@@ -166,6 +165,13 @@ body{
 }
 /* end of 2nd section */
 /* ------------------------------------------- */
+/* css for combined div of 3rd and 4th section */
+.joint-rd-th {
+  display: flex;
+  gap: 2rem;
+}
+
+/* --------------------------------------------------- */
 /* start of third section  */
 
 .inbox-section {
@@ -174,11 +180,6 @@ body{
   border-radius: 1.5rem;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.09);
   margin-top: 2.5rem;
-}
-
-.order {
-  z-index: 2;
-  position: relative;
 }
 
 .st-inbox,.nd-inbox {
@@ -226,10 +227,8 @@ body{
   width: 44rem;
   background: rgb(255, 255, 255);
   border-radius: 1.5rem;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.09);
   margin-top: 2rem;
-  z-index: 2;
-  position: relative;
 }
 
 .activity-head {
@@ -280,43 +279,35 @@ body{
 /* end of 3rd section  */
 /* --------------------------------------- */
 /* start of fourth section  */
-.trends-users {
-  width: 450px;
-  background: transparent;
-  margin-top: 30px;
-  padding: 20px 20px;
-  position: absolute;
-  top: 250px;
-  left: 900px;
-  z-index: 1;
-}
-
-.over-03 {
+.th-section {
   background: white;
-  border-radius: 15px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-  position: relative;
-  padding: 20px 420px 20px 20px;
+  width: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 50rem;
+  margin-top: 2rem;
 }
 
-.trends img,
+
+.trends-users {
+  background: transparent;
+  margin-top: 2rem;
+  padding: 20px 20px;
+
+}
+.th-section-hd-img {
+  width: 50rem;
+}
+
 .active-users,
 .user-stats {
-  margin-top: 40px;
-}
-
-.trends p {
-    color: #c9cace;
-    font-size: 14px;
+  margin-top: 4rem;
 }
 
 .user-stats,
-.stats-top {
+.stop {
   display: flex;
-}
-
-.stats-top {
-  align-items: center;
 }
 
 .user-stats {
